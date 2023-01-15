@@ -1646,6 +1646,84 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@minimouli/framework@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/framework@npm:2.0.0"
+  dependencies:
+    "@minimouli/fs": ^2.0.0
+    "@minimouli/ipc": ^2.0.0
+    "@minimouli/matchers": ^2.0.0
+    "@minimouli/process": ^2.0.0
+    "@minimouli/types": ^2.0.0
+    core-js: ^3.25.0
+  checksum: c56cd698ad070dd7210563199fa2e6c997f8173d9d50f4390a044ff043f68545af7559de05926f2aa53ce52945295a5043a8c42a343f0e4bbe940e97600b9b4b
+  languageName: node
+  linkType: hard
+
+"@minimouli/fs@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/fs@npm:2.0.0"
+  dependencies:
+    "@minimouli/io": ^2.0.0
+    "@minimouli/types": ^2.0.0
+    core-js: ^3.25.0
+    fast-glob: ^3.2.12
+  checksum: aca8ddc562a87175131e7bf18e3486eab66e53d5529088f4ddeb2bfcec09e8717edb6be64257e640806063838a3f91f9075f96efb7d5546d67be783b09247d9b
+  languageName: node
+  linkType: hard
+
+"@minimouli/io@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/io@npm:2.0.0"
+  dependencies:
+    "@minimouli/types": ^2.0.0
+    core-js: ^3.25.0
+  checksum: 1901ac30cde68c13af422851a96fb7544bd0f505ec51857d15677c8abc7045cc9feb3967134bd572036a97b44f2879e5cba2b85df5ca6152c209075d584dcaf7
+  languageName: node
+  linkType: hard
+
+"@minimouli/ipc@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/ipc@npm:2.0.0"
+  dependencies:
+    "@minimouli/process": ^2.0.0
+    core-js: ^3.25.0
+  checksum: e13e419fe2582a459bc41a38a0b0c9bb15116230f6051648872f19f5fa9c2889eb3b3bfe9018381d17203f3351a42cfd46dd891a5aa1c37cb3c94de637e40fde
+  languageName: node
+  linkType: hard
+
+"@minimouli/matchers@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/matchers@npm:2.0.0"
+  dependencies:
+    "@minimouli/fs": ^2.0.0
+    "@minimouli/types": ^2.0.0
+    core-js: ^3.25.0
+  checksum: 4400baf45c619527bf9fdfc753fc0e1103d49057fed5dbccdece92958f6a6bd585413b8d8b3a4ed2b9e0f348ec000f91f381a70fcae042d7416ebe1e98bfa412
+  languageName: node
+  linkType: hard
+
+"@minimouli/process@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/process@npm:2.0.0"
+  dependencies:
+    "@minimouli/fs": ^2.0.0
+    "@minimouli/io": ^2.0.0
+    "@minimouli/types": ^2.0.0
+    core-js: ^3.25.0
+  checksum: 54e6b5bdfecccb914669ba40dc3d22b4c3947995dd51b5ad78bdfb3832e1df985d8bdcfbcb81864051806207977335a83be817f5a55c83ca7a5861aa629eace0
+  languageName: node
+  linkType: hard
+
+"@minimouli/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@minimouli/types@npm:2.0.0"
+  dependencies:
+    core-js: ^3.25.0
+  checksum: ec84937f5dd58d5a6592c7b09bb1bbfc3d32098ca23f7846fd4fe6fb947b9a747a71bada629f3d8c236c74106a83225f142ca7046caaa6ba01dc3d6b9823819b
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3":
   version: 2.1.8-no-fsevents.3
   resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3"
@@ -2581,7 +2659,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.27.1":
+"core-js@npm:^3.25.0, core-js@npm:^3.27.1":
   version: 3.27.1
   resolution: "core-js@npm:3.27.1"
   checksum: d50b5f88aea4302512ad9446c18e90f4d35dea1e6d8d3f87337690677061565ff11a670f1e0c87de57aa6074375fbb25ed5784076c040d3c4de8b4bce7d2ebeb
@@ -3210,7 +3288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -5391,6 +5469,7 @@ __metadata:
     "@babel/preset-typescript": ^7.18.6
     "@commitlint/cli": ^17.4.0
     "@commitlint/config-conventional": ^17.4.0
+    "@minimouli/framework": ^2.0.0
     "@types/node": ^18.11.18
     "@typescript-eslint/eslint-plugin": ^5.48.0
     "@typescript-eslint/parser": ^5.48.0
